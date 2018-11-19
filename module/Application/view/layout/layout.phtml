@@ -1,0 +1,52 @@
+
+<?php echo $this->doctype(); ?>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+
+    <?php echo $this->headTitle('Hackathon21')->setSeparator(' - ')->setAutoEscape(false); ?>
+    <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0'); ?>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <?php echo $this->headLink(); ?>
+    <?php echo $this->headScript(); ?>
+</head>
+
+<body>
+
+<header>
+    <div id="style" class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="logo" src="/assets/img/logo2.png">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+            </a>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+    <?php echo $this->content; ?>
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="float-right">
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/holder.min.js"></script>
+</body>
+</html>
+

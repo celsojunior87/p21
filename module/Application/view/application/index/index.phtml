@@ -1,0 +1,40 @@
+<?php echo $this->headTitle('P21 Sistemas'); ?>
+<div class="container">
+    <h3 class="titulo">Listar Informações dos Cartórios</h3>
+
+    <div class="panel-body">
+        <table  class="table table-bordered table-striped ">
+        <thead>
+        <tr>
+            <th>Nome Cartório</th>
+            <th>Cidade</th>
+            <th>Tabelião </th>
+            <th>Ação</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+</div>
+
+
+<!--<section class="jumbotron text-center">-->
+<!--    <div class="container">-->
+<!--    </div>-->
+<!--</section>-->
+<div class="container">
+
+
+<?php
+$form = $this->form;
+
+$form->prepare();
+
+echo $this->form()->openTag($form);
+$form->setAttribute('action', $this->url());
+echo $this->formCollection($form);
+echo $this->form()->closeTag();?>
+
+</div>

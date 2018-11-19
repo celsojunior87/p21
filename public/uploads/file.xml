@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cartorios>
+	<cartorio>
+		<nome>1º Tabelionato de Notas e Registro de Imoveis</nome>
+		<razao>1º Tabelionato de Notas e Registro de Imoveis</razao>
+		<tipo_documento>2</tipo_documento>
+		<documento>00002253000102</documento>
+		<cep>75650000</cep>
+		<endereco>Pc. Prof. Jose Candido Nr 709</endereco>
+		<bairro>Centro</bairro>
+		<cidade>Morrinhos</cidade>
+		<uf>GO</uf>
+		<tabeliao>Luciano Carneiro do Vale</tabeliao>
+		<ativo>1</ativo>
+	</cartorio>
+	<cartorio>
+		<nome>2º Tabelionato de Notas e Registro de Imoveis</nome>
+		<razao>1º Tabelionato de Notas e Registro de Imoveis</razao>
+		<tipo_documento>2</tipo_documento>
+		<documento>0074533000102</documento>
+		<cep>7434650000</cep>
+		<endereco>Pc. Prof. Jose Candido Nr 709</endereco>
+		<bairro>Centro</bairro>
+		<cidade>Morrinhos</cidade>
+		<uf>GO</uf>
+		<tabeliao>Luciana Carneiro do Vale</tabeliao>
+		<ativo>1</ativo>
+	</cartorio>
+
+</cartorios>
